@@ -15,7 +15,7 @@ Ensure you have the following installed:
 
 *   `ray.cc`: Main C++ source file containing all game logic.
 *   `Makefile`: Build the project.
-*   `src/`: Source code directory
+*   `src/`
     *   `include/`: Header files 
 
 ### Installation
