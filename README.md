@@ -1,6 +1,6 @@
-Advanced Raycasting Engine
+# Raycasting Engine
 
-A simple raycasting engine implemented in C++ using SDL2. It features textured walls, basic enemy AI, a minimap, and a user interface displaying FPS and player position.
+A raycasting engine implemented in C++ using SDL2. It features textured walls, basic enemy AI, a minimap, and a user interface displaying FPS and player position.
 
 ## Getting Started
 
@@ -13,24 +13,23 @@ Ensure you have the following installed:
 
 ## Project Structure
 
-*   `colorfull_ball.cc`: Main C++ source file containing all game logic.
+*   `ray.cc`: Main C++ source file containing all game logic.
 *   `Makefile`: Build the project.
-*   `src/`: Source code directory (intended for larger projects, currently not heavily utilized in this simplified example).
-    *   `include/`: Header files (intended for larger projects, currently not utilized).
-    *   `lib/`: SDL related libraries (SDL2 is expected to be installed system-wide or linked appropriately during compilation).
+*   `src/`: Source code directory
+    *   `include/`: Header files 
 
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone git@github.com:Luke23-45/Colorfull-Ball-with-Particle-Effect-Animation.git
+    git clone git@github.com:Luke23-45/Simple-Raycasting-Game-with-SDL2.git
     ```
 ## Building
 
 This project uses `make` for building. To build the project, run the following command in your terminal:
 
-2. Navigate to the project directory:
+1. Navigate to the project directory:
     ```bash
-    cd Colorfull-Ball-with-Particle-Effect-Animation
+    cd Simple-Raycasting-Game-with-SDL2
     ```
 3. Compile the code:
     ```bash
@@ -38,7 +37,7 @@ This project uses `make` for building. To build the project, run the following c
     ```
 4. Run the executable (Linux/macOS):
     ```bash
-    ./Colorfull-Ball-with-Particle-Effect-Animation
+    ./main
 
     ```
 5. Run the executable (Windows):
@@ -81,7 +80,7 @@ This project uses `make` for building. To build the project, run the following c
 ## Code Structure
 The project is structured as follows:
 
-*   `colorfull_ball.cc`: This single file contains the entire C++ source code for the raycasting engine.
+*   `ray.cc`: This single file contains the entire C++ source code for the raycasting engine.
     *   **Includes**: Includes necessary SDL2 libraries (`SDL.h`, `SDL_image.h`, `SDL_ttf.h`), standard C++ libraries (`cmath`, `vector`, `iostream`, `string`).
     *   **Constants**: Defines constants for screen dimensions, map size, mouse sensitivity, and player settings.
     *   **Data Structures**: Defines structs for `Player` and `Enemy` to manage game entities. The `worldMap` array represents the game world.
